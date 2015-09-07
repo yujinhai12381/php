@@ -7,7 +7,7 @@
 # Created Time: Mon 10 Aug 2015 10:17:00 AM CST
 #########################################################################
 
-for ($estimate = 60; $estimate <= 70; $estimate++) {
+for ($estimate = 54; $estimate <= 70; $estimate++) {
     $bankfirst = $estimate*0.3; 
     $cashfirst = 76 - $estimate;
     $totalfirt = $bankfirst + $cashfirst;
