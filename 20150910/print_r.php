@@ -12,4 +12,11 @@ $testArray = array(
                 'b' => "hehehe",
                 'c' => "xixixi"
             );
+error_log("++++++++++++(print_r)+++++++++++++++++");
+print_r($testArray);
+
+error_log("++++++++++++(print_r(true))++++++++++++++++++");
+print_r($testArray,true);
+
+error_log("+++++++++++++++++++++++++++++++++++");
 error_log(print_r($testArray,true));
