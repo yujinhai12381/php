@@ -8,7 +8,7 @@
 #########################################################################
 $var['test'] = 0;
 $a = isset($var['test']) ? $var['test']: 0;
-if (empty($var['aa'])) {
+if (empty($a)) {
     error_log("empty");
 } else {
     error_log("not empty");

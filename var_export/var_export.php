@@ -1,13 +1,13 @@
 <?php
 #########################################################################
-# File Name: test.php
+# File Name: var_export.php
 # Desc: 
 # Author: yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: Wed 28 Oct 2015 08:25:52 PM CST
+# Created Time: Fri 30 Oct 2015 04:45:23 PM CST
 #########################################################################
 
-$a = floatval(1.1);
-$b = 12;
-$c = $a * $b;
-error_log("result: {$a}*{$b}:".$c);
+$a = array();
+
+error_log("result: ".var_export($a,true));
+
