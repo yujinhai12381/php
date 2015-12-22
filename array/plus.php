@@ -1,15 +1,15 @@
 <?php
 #########################################################################
-# File Name: test.php
+# File Name: plus.php
 # Desc: 
 # Author: yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: Mon 06 Jul 2015 11:58:24 AM CST
+# Created Time: Wed 09 Dec 2015 10:17:44 AM CST
 #########################################################################
 
-$flag = 1;
-if ($flag) {
-    error_log("flag ===  false");
-} else {
-    error_log("flag ===  true");
-}
+$array1 = array('a'=> 1);
+$array2 = array('b'=> 2);
+
+$ret = $array1 + $array2;
+
+error_log(var_export($ret,true));
