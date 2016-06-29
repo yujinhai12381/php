@@ -2,14 +2,16 @@
 #########################################################################
 # File Name: test.php
 # Desc: 
-# Author: yujinhai
-# mail: yujinhai12381@126.com
-# Created Time: Mon 13 Jul 2015 07:05:17 PM CST
+# Author:yujinhai
+# mail: yujinhai@yongche.com
+# Created Time: 三  6/ 1 14:20:58 2016
 #########################################################################
-$var['test'] = 0;
-$a = isset($var['test']) ? $var['test']: 0;
-if (empty($a)) {
-    error_log("empty");
-} else {
-    error_log("not empty");
-}
+
+echo strtotime("now"), "\n";
+echo strtotime("2016-06-01 00:00:00"), "\n";
+echo strtotime("+1 day"), "\n";
+echo strtotime("+1 week"), "\n";
+echo strtotime("+1 week 2 days 4 hours 2 seconds"), "\n";
+echo strtotime("next Thursday"), "\n";
+echo strtotime("last Monday"), "\n";
+?>
