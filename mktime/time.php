@@ -9,5 +9,6 @@
 //$time = date("Y-m-d H:i:s");
 //error_log("time:".$time);
 
-$date = date("Y-m-d",time());
+//$date = date("Y-m-d",time());
+$date = date("Y_m",time());
 error_log("date ".$date);
