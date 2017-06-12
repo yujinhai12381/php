@@ -3,7 +3,7 @@
 # File Name: quick_sort.php
 # Desc: 
 # Author:yujinhai
-# mail: yujinhai@yongche.com
+# mail: yujinhai12381@126.com
 # Created Time: 五  5/26 10:51:15 2017
 #########################################################################
 
