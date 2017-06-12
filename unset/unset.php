@@ -9,13 +9,13 @@
 
 
 
-$a = 'a';
+$a = '1111';
 $b = &$a;
 
 unset($a);
 echo $b;
 
-$a = 'a';
+$a = 'hello';
 $b = $a;
 
 unset($a);
