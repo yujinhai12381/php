@@ -10,8 +10,8 @@
 $f = 0.5722;
 $ret = '57.22';
 
-$num = round($f * 100,3);
+$num = round($f * 100,1);
 
-var_dump($num);
+var_dump($num);)
 
 echo intval($f * 100);  //56
