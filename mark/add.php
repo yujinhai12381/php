@@ -1,14 +1,14 @@
 <?php
 #########################################################################
-# File Name: json_encode.php
+# File Name: add.php
 # Desc: 
 # Author:yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: 六  8/ 6 21:15:56 2016
+# Created Time: 四  5/18 16:40:56 2017
 #########################################################################
 
 
-$str = 'This is an encoded string';
-echo base64_encode($str);
-?>
-
+echo 1+"2";
+error_log("\n-----------");
+echo 1+"a";
+error_log("\n-----------");

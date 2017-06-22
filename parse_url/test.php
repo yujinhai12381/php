@@ -1,14 +1,16 @@
 <?php
 #########################################################################
-# File Name: json_encode.php
+# File Name: test.php
 # Desc: 
 # Author:yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: 六  8/ 6 21:15:56 2016
+# Created Time: 二  5/16 11:09:19 2017
 #########################################################################
 
+$url = 'http://yujinhai.xx.haha.org/V1/HomePage/driver?city=dandong';
 
-$str = 'This is an encoded string';
-echo base64_encode($str);
-?>
+print_r(parse_url($url));
+
+echo parse_url($url, PHP_URL_PATH);
+echo "\n";
 

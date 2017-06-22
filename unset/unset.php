@@ -1,14 +1,23 @@
 <?php
 #########################################################################
-# File Name: json_encode.php
+# File Name: unset.php
 # Desc: 
 # Author:yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: 六  8/ 6 21:15:56 2016
+# Created Time: 五  5/19 10:29:51 2017
 #########################################################################
 
 
-$str = 'This is an encoded string';
-echo base64_encode($str);
-?>
+
+$a = '1111';
+$b = &$a;
+
+unset($a);
+echo $b;
+
+$a = 'hello';
+$b = $a;
+
+unset($a);
+echo $b;
 
