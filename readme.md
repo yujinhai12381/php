@@ -10,3 +10,4 @@
 bool in_array ( mixed $needle , array $haystack [, bool $strict = FALSE ] )
 
 #测试compare
+#测试MergeRequest
