@@ -1,0 +1,13 @@
+{
+    "name": "yujinhai/php",
+    "description": "study composer",
+    "authors": [
+        {
+            "name": "yujinhai",
+            "email": "yujinhai12381@126.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit" : ">4.8"
+    }
+}
