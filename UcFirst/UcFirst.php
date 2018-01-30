@@ -9,4 +9,3 @@
     error_log("only  study and test");
     //error_log( ucfirst("hello world"));
     echo ucfirst("hello world\n");
-    echo ucfirst("ClaimsStat\n");
