@@ -48,9 +48,9 @@ function redisCRC16 (&$ptr){
     return $crc;
 }
 $test = chr(0xC6).chr(0xCE).chr(0xA2).chr(0x03); // CRC16-CCITT = 0xE2B4
-$key1='key1'; 
-$key2='key2';
-$key3='key3';
+$key1= 98551; 
+$key2='2';
+$key3='3';
 echo $key1_db=redisCRC16($key1)%16384; //得出在redis(集群)中键值为'key1'的数据存储插槽为9189
 echo "\n";
 echo $key2_db=redisCRC16($key2)%16384; //得出在redis(集群)中键值为'key2'的数据存储插槽为4998
