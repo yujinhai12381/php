@@ -1,17 +1,16 @@
 <?php
 #########################################################################
-# File Name: empty.php
+# File Name: array3.php
 # Desc: 
 # Author:yujinhai
 # mail: yujinhai12381@126.com
-# Created Time: 三  8/16 10:20:15 2017
+# Created Time: 2018年10月30日 星期二 17时38分38秒
 #########################################################################
 
-$ret = intval('82342334');
+$ar2[1] = '1';
+$ar2[0] = '0';
+$ar2['dasfds'] = 'add1';
 
-if (empty($ret)) {
-    error_log("empty");
-    exit;
+foreach ($ar2 as $v) {
+    error_log($v);
 }
-
-    error_log("not empty");
