@@ -8,15 +8,12 @@
 #########################################################################
 
 $a = array(
-        'a'=> 1,
-        'b' =>2,
-        'c' =>3
+        '00',
+        '02',
+        '05',
     );
 
-if (in_array(1,$a)) {
-    error_log(" 1 in array!!");
+if (in_array(00,$a)) {
+    error_log(" 00 in array!!");
 }
 
-if (!in_array(4,$a)) {
-    error_log(" 4 not in array!!");
-}
