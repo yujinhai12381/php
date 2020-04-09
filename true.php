@@ -7,9 +7,9 @@
 # Created Time: Mon 06 Jul 2015 11:58:24 AM CST
 #########################################################################
 
-$flag = 1;
-if ($flag) {
-    error_log("flag ===  false");
+$haha = 1;
+if ($haha) {
+    error_log("haha ===  false");
 } else {
-    error_log("flag ===  true");
+    error_log("haha ===  true");
 }
